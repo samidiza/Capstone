@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@400;600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+
+}
+body{
+    background-color: blueviolet;
+}
+.nav-div{
+    text-align: center;
+}
+.nav.a{
+    position: fixed;
+    height: 70px;
+    width: 100px;
+    background-color: black;
+    justify-content:space-evenly ;
+    align-items: center;
+}
+.nav.a>a:hover{
+    color: crimson;
+}
+.nav.a{
+    text-decoration: #ff0202;
+}
+
+.column{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+a{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.about-me-container>p{
+    margin-top:20px ;
+}
+
+h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+}
+.lets-talk{
+    height: 300px;
+    background-image:url(./assets/footer-final.png) ;
+}
+
+
+.lets-talk a{
+    width: 150px;
+    background-color: #0026ff;
+    padding: 10px 5px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.lets-talk-container>a:hover{
+    font-weight: bold;
+    color: rgb(235, 6, 6);
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    color: #ff0202;
+    padding: 10px;
+}
+
+
+/*Iteration 1  - Implement flex property to nav Bar */
+.flex{
+    display: flex;
+    
+
+}
+/*Iteration 2 - Use flex property and style the nav bar*/
+
+/*Iteration 3  - Implement flex property to about part */
+.column{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/*Iteration 4 -  Use Justify-content and Align-items to align about-me-container class*/
+.about-me-container{
+    width: 250px;
+    text-align: center;
+    justify-content: flex-start;
+    align-items: space-evenly;
+}
+/*Iteration 5 -  Use Justify-content to style about and work div*/
+.about{
+    min-height: 600px;
+    background-color: #1E1E1E;
+    justify-content: space-evenly;
+}
+/*Iteration 6 -  USe justify-content to style work,about-container, .lets-talk-container and skills  div */
+.about-container{
+    width: 100vw;
+    justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 600px) {
+    /* nav{
+    } */
+    
+    .about-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .about-me-container {
+        margin: 7px;
+    }
+    
+}
+ .kk{
+     text-decoration-color: #0026ff;
+ }
+.kk2{
+    text-decoration-color: aqua;
+}
